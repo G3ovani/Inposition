@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+html {
+    background-color: lightblue;
+}
+main{
+    width: 660px;
+    background-color: white;
+    font-size: 14px;
+    box-shadow: 0 0 10px gray;
+    margin: 10px auto;
+    padding: 10px;
+    height: 500px;
+}
+#principal{
+    background-color: rgb(red, green, blue);
+    border: 1px dotted grey;
+    margin-top: 20px;
+    position: relative;
+}
+section{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+.janela1{
+    background-color: darkgreen;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.janela2{
+    background-color: gold;
+}
+.janela3{
+    background-color: blue;
+}
